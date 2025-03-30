@@ -1,0 +1,12 @@
+// The program asking a dog breed and print count
+
+// To ask the user about the breed of dog
+let dog_breed = prompt("Dog breed:");
+//To ask the user of how many print does the user want to display the dog breed
+let print_count = prompt("Print Count:");
+
+// Print the dog breed base on the user input print count
+//The iteration starts at zero and stop when the limit reach
+for(let i=0; i < print_count; i++){
+//Then print the dog breed according to the print_count
+    console.log(dog_breed);
