@@ -1,0 +1,18 @@
+//a variable that store the user_password
+let user_password = "rinallanes121405";
+//a variable that store the user_name
+let user_name = "Rhiynah";
+//To prompt the user to input the user_password
+let password = prompt("What is your user_password:");
+//To prompt the user to input the the user_name
+let user_Name = prompt("What is your user_name:");
+
+// Check if the user input matches the data stored in a var
+if(user_password == password){
+    console.log(`Welcome ${user_name}`)
+} else{
+// To Log if the user_password and password is not equal to the input of user
+    console.log(`Maybe Username or Password is Invalid or Does not Match`)
+}
+
+
